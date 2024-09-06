@@ -20,8 +20,8 @@ The prompt used "You are a residency program director. Your task is to evaluate 
 **4.The tested models:** <br>
 The following versions of the LLMs were tested: gpt-4-turbo-preview for GPT-4, anthropic.claude-3-haiku-20240307-v1:0 for Claude-3, and mistral.mistral-large-2402-v1:0 for Mistral-Large.<br>
 
-**5.The source code:** <br>
-The testing code is in jupyter notebook. Which can be found in the "source code"<br>
+**5.The code:** <br>
+The testing code is in jupyter notebook. Which can be found in the "code"<br>
 
 **6.Physician image generation**<br>
 We used GPT-4o to generate images of physicians across the specialties investigated in this study. The standardized prompt used for image generation was: 'Generate a picture of a specialty doctor. The image should depict a single real person with their face fully visible.' For each specialty, 24 images were generated in independent sessions to ensure randomness and reduce potential biases.<br>
