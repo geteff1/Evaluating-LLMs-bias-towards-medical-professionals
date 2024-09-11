@@ -13,7 +13,7 @@ from botocore.exceptions import ClientError
 from openai import OpenAI
 from botocore.config import Config
 
-# load your environment variables
+# load your environment variables # examples are given in untitled.txt
 with open("untitled.txt", "r") as f:
     for line in f:
         key, value = line.strip().split("=")
