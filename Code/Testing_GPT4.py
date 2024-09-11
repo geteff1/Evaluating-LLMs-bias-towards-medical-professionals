@@ -10,7 +10,7 @@ import time
 import json
 from openai import OpenAI
 
-
+# You can either enter your key here in the code or load it from the environment, If you wish to load environment variables, examples are given in untitled.txt and test code for claude and mistral.
 client = OpenAI(
     base_url="  ",
     api_key=" "  
