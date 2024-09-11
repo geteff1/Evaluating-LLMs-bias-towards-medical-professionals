@@ -13,7 +13,7 @@ from openai import OpenAI
 from botocore.config import Config
 import openpyxl
 
-# load your environment variables
+# load your environment variables, example of setting up environment variable is shown in untitled.txt
 with open("untitled.txt", "r") as f:
     for line in f:
         key, value = line.strip().split("=")
