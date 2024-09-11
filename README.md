@@ -23,5 +23,10 @@ The following versions of the LLMs were tested: gpt-4-turbo-preview for GPT-4, a
 **5.The code:** <br>
 The testing code is in jupyter notebook. Which can be found in the "code"<br>
 
+**6. Testing Process:** <br>
+Firtst, the resumes to be evaluted are resampled and enetered into an excel file. There are five resumes in one cell. Each excel file represents one type of bias to be tested.  <br>
+Second, enter the file path of the excel file into the code, select the model. Change the column index in the code according to your own excel file.  <br>
+Third, Run the code, the results will be stored in the excel. <br>
+
 **6.Physician image generation**<br>
 We used GPT-4o to generate images of physicians across the specialties investigated in this study. The standardized prompt used for image generation was: 'Generate a picture of a specialty doctor. The image should depict a single real person with their face fully visible.' For each specialty, 24 images were generated in independent sessions to ensure randomness and reduce potential biases.<br>
