@@ -28,5 +28,5 @@ Firtst, the resumes to be evaluted are resampled and enetered into an excel file
 Second, enter the file path of the excel file into the code, select the model. Change the column index in the code according to your own excel file.  <br>
 Third, Run the code, the results will be stored in the excel. <br>
 
-**6.Physician image generation**<br>
+**7.Physician image generation**<br>
 We used GPT-4o to generate images of physicians across the specialties investigated in this study. The standardized prompt used for image generation was: 'Generate a picture of a specialty doctor. The image should depict a single real person with their face fully visible.' For each specialty, 24 images were generated in independent sessions to ensure randomness and reduce potential biases.<br>
